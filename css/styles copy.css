@@ -1,0 +1,205 @@
+:root {
+    --verde1: #606c38;
+    --verde2: #283618;
+    --blanco: #fefae0;
+    --boton1: #0c56119e;
+    --marron1: #dda15e;
+    --marron2: #bc6c25;
+
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Flex*/
+.contenedorHeader {
+    display: flex;
+    /*aliniamos horizontalmente con justify-content*/
+    justify-content: center;
+
+
+}
+
+.section1h {
+    display: flex;
+    align-items: center;
+    height: 200px;
+
+}
+
+/* Flex usarlo para Mobile*/
+.itemTituto1 {
+
+
+    margin: 0px 0px 0px 0px;
+}
+
+.itemTituto2 {
+
+    margin: 20px 0px 0px 10px;
+}
+
+.itemLogo {
+
+    margin: 50px 0px 0px 0px;
+
+
+}
+
+
+header {
+    background-color: #606c38;
+
+}
+
+footer {
+    text-align: center;
+
+}
+
+span {
+    font-size: 50%;
+}
+
+/*Imágenes*/
+.imagenCursos {
+    width: 12rem;
+    /* Ancho deseado */
+    height: auto;
+    /* Altura automática para mantener la proporción */
+
+}
+
+.imagenCursos2 {
+    width: 24rem;
+    /* Ancho deseado */
+    height: auto;
+    /* Altura automática para mantener la proporción */
+
+}
+
+/* Fondos*/
+.fondo1Color1 {
+    background-color: #606c38;
+}
+
+.fondo1Color2 {
+    background-color: #606c38;
+}
+
+/* Botones*/
+
+.botonContacto {
+    background-color: #bc6c25;
+    color: white;
+    /* Para asegurarnos de que el texto sea visible en el botón */
+    border: none;
+    /* Eliminamos el borde para un aspecto más limpio */
+    padding: 10px 20px;
+    /* Ajustamos el relleno para que el botón sea más grande y más visible */
+    border-radius: 5px;
+    /* Añadimos bordes redondeados para un aspecto más estilizado */
+}
+
+.botonForm {
+    background-color: #bc6c25;
+    color: white;
+    /* Para asegurarnos de que el texto sea visible en el botón */
+    border: none;
+    /* Eliminamos el borde para un aspecto más limpio */
+    padding: 5px 10px;
+    /* Ajustamos el relleno para que el botón sea más grande y más visible */
+    border-radius: 2.5px;
+    /* Añadimos bordes redondeados para un aspecto más estilizado */
+}
+
+
+
+/* Tipografia */
+
+h1 {
+
+    font-size: 2.8rem;
+    text-align: center;
+    color: #fefae0;
+
+}
+
+h2 {
+    background-color: #bc6c25;
+    font-size: 1.8rem;
+    color: #fefae0;
+
+}
+
+h3 {
+    font-size: 1.3rem;
+    text-align: center;
+    color: #fefae0;
+}
+
+p {
+    line-height: 1.5;
+    /* El interlineado será 1.5 veces el tamaño de la fuente */
+    color: #fefae0;
+}
+
+label {
+    Font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+
+h1,
+h2,
+h3,
+p {
+    Font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+/*Tipografía para Cursos*/
+
+.cursoH3 {
+    Font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+    text-align: left;
+
+}
+
+/*Tablas*/
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #fefae0;
+}
+
+/*Listas*/
+
+/* para sacar el subrayado y dar color a los enlaces de enlaces en lista*/
+ul li a {
+    Font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    font-weight: 100;
+    color: #fefae0;
+}
